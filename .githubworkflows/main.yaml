@@ -3,7 +3,7 @@ name: Deploy a Surge.sh
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
