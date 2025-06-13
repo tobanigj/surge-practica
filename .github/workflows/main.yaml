@@ -18,4 +18,4 @@ jobs:
 
       - name: Publicar en Surge
         run: |
-          surge ./ --domain TU_DOMINIO.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+         surge ./ --domain tobanigj-${{ github.run_number }}.surge.sh --token ${{ secrets.SURGE_TOKEN }}
